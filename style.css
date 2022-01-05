@@ -19,3 +19,63 @@ body {
 .map img {
     width: 250px;
 }
+
+.description-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(45deg, green, red, green);
+}
+
+.description-btn:hover {
+    background-color: blue;
+    cursor: pointer;
+
+}
+
+.second-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.all-division {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn-section {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    background-color: gray-lighter;
+    border-radius: 5px;
+
+}
+
+.btn-section:hover {
+    background-color: green;
+    color: white;
+    transition: 0.8s;
+}
+
+.dhaka {
+    width: 250px;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+}
+
+.img-div img {
+    width: 100%;
+
+}
+
+.third-section a {
+    text-align: justify;
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+.footer-copyright h5 {
+    text-align: center;
+}
